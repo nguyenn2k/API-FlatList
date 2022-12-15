@@ -1,2 +1,2 @@
 # API-FlatList
-Build API FlatList
+Call API for FlatList
