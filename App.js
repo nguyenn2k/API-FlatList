@@ -29,18 +29,6 @@ const App = () => {
       console.log('Error: ', error);
     }).finally(()=> setisLoading(false)) //Request API xong ->setLoading(false)
   }
-
-  
-  //Tạo functon:
-  /*
-  const renderItem = ({item, index}) =>{
-    return(
-      <View>
-        <Text>{item.title}</Text>
-      </View>
-    )
-  }*/
-
   //Làm lại item: (cuối cùng)
   const renderItem = ({item, index}) =>{
     return(
